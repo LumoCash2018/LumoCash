@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/lumocash_bg.qm</file>
+        <file alias="de">locale/lumocash_de.qm</file>
+        <file alias="en">locale/lumocash_en.qm</file>
+        <file alias="es">locale/lumocash_es.qm</file>
+        <file alias="fi">locale/lumocash_fi.qm</file>
+        <file alias="fr">locale/lumocash_fr.qm</file>
+        <file alias="it">locale/lumocash_it.qm</file>
+        <file alias="ja">locale/lumocash_ja.qm</file>
+        <file alias="pl">locale/lumocash_pl.qm</file>
+        <file alias="pt">locale/lumocash_pt.qm</file>
+        <file alias="ru">locale/lumocash_ru.qm</file>
+        <file alias="sk">locale/lumocash_sk.qm</file>
+        <file alias="sv">locale/lumocash_sv.qm</file>
+        <file alias="vi">locale/lumocash_vi.qm</file>
+        <file alias="zh_CN">locale/lumocash_zh_CN.qm</file>
+        <file alias="zh_TW">locale/lumocash_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+usr/local/bin/lumocash-qt usr/bin
+share/pixmaps/lumocash32.xpm usr/share/pixmaps
+share/pixmaps/lumocash16.xpm usr/share/pixmaps
+share/pixmaps/lumocash128.png usr/share/pixmaps
+debian/lumocash-qt.desktop usr/share/applications
+debian/lumocash-qt.protocol usr/share/kde4/services/

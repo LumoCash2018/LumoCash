@@ -1,0 +1,1 @@
+qt/libbitcoinqt_a-qrc_lumocash.o: qt/qrc_lumocash.cpp

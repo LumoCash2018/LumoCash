@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=LumoCash
+Comment=LumoCash P2P Cryptocurrency
+Exec=lumocash-qt %u
+Terminal=false
+Type=Application
+Icon=lumocash128
+MimeType=x-scheme-handler/lumocash;
+Categories=Office;Finance;
+Name[en_US]=lumocash-qt.desktop

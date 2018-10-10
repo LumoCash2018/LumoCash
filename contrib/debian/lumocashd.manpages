@@ -1,0 +1,3 @@
+debian/manpages/lumocashd.1
+debian/manpages/lumocash.conf.5
+debian/manpages/lumocash-cli.1

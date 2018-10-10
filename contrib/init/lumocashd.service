@@ -1,0 +1,22 @@
+[Unit]
+Description=LumoCash's distributed currency daemon
+After=network.target
+
+[Service]
+User=lumocashcore
+Group=lumocashcore
+
+Type=forking
+PIDFile=/var/lib/lumocashd/lumocashd.pid
+ExecStart=/usr/bin/lumocashd -daemon -pid=/var/lib/lumocashd/lumocashd.pid \
+-conf=/etc/lumocashcore/lumocash.conf -datadir=/var/lib/lumocashd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
