@@ -126,7 +126,7 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x00000bbf403e648b97c0bf067fcb24bbd7123a00085f4cbdc811432ce5f46ecd"));
         assert(genesis.hashMerkleRoot == uint256S("0x136f369c3f8405f7d7d3bae47e6a46ac668436e6790a3faf4c5229c4a79d469b"));
 
-        vSeeds.push_back(CDNSSeedData("seed", "seed.lumocash.co"));
+        //vSeeds.push_back(CDNSSeedData("seed", "seed.lumocash.co"));
 
 	    // Testnet LumoCash addresses start with 'L'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,48);
@@ -143,7 +143,7 @@ public:
 
         //vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
-        fMiningRequiresPeers = true;
+        fMiningRequiresPeers = false;
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
         fMineBlocksOnDemand = false;
